@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container{
+    border: 4px solid gray;
+  background: linear-gradient(
+      135deg,
+      gray, white
+    );
+  height: 450px;
+  width: 400px;
+display:flex;
+flex-direction: column;
+border-radius: 20px;
+padding :2px;
+
+}
+
+h1 {
+   
+    font-size: 35px;
+     
+ 
+    margin: 0;
+}
+.input-field{
+font-family: 'Orbitron', sans-serif;
+ border: 2px solid gray;
+ height: 60px;
+ background-color: white;
+color: black;
+padding-left: 5px;
+font-size: 40px;;
+margin-top: 20px;
+border-radius: 10px;
+}
+.head-input{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.button-section{
+    background: linear-gradient(
+        135deg,
+      gray,white
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 10px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80%;
+    border: 2px solid gray;
+    border-radius: 15px;
+    
+}
+.calbutton{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  
+}
+.calbutton button{
+    color:white;
+    font-size: 30px;
+   background: linear-gradient(
+      135deg,
+      gray,white
+    );
+    height: 60px;
+    width: 69px;
+    border: none;
+    border-radius: 15px;
+}
