@@ -1,4 +1,4 @@
-# Todo App
+# calculator
 
 A simple calculator application built using React.
 
