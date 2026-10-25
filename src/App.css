@@ -93,3 +93,10 @@ border-radius: 10px;
     border: none;
     border-radius: 15px;
 }
+.calbutton button:active{
+    background: linear-gradient(
+        135deg,
+        white,gray
+      );
+      color: black;
+}

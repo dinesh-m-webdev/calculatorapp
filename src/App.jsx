@@ -16,14 +16,20 @@ setInput(result);
 function expnum(event){
   const value=event.target.value;
 
-if(/^[0-9+\-*/]*$/.test(value)){
+if(/^[0-9+\-*/.]*$/.test(value)){
   setInput(value);
 }
 
 }
 function enterkey(event){
   if(event.key==="Enter"){
-    calculate();
+    if(input===""){
+      setInput("");
+    }
+    else{
+      calculate();
+    }
+     
   }
   if(event.key===" "){
     setInput("");
@@ -40,7 +46,7 @@ function enterkey(event){
         
        <div className='head-input'>
           
-     <h1>C A L C U L A T E R</h1>
+     <h1>C A L C U L A T O R</h1>
       
       <input className='input-field' value={input} onChange={expnum} type="text"  onKeyDown={enterkey}/>
       </div>
